@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.11" sequence="5" timestamp="1551829865464" analysisTimestamp="1551829863961" release="">
+  <Project projectName="project-findbugs-Liu-0305">
+    <Jar>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace_CSCI4830_0305\project-findbugs-Liu-0305\bin\class_exercise</Jar>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace_CSCI4830_0305\project-findbugs-Liu-0305\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\jce.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace_CSCI4830_0305\project-findbugs-Liu-0305\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="class_exercise.EncryptionDecryptionAES">
+      <SourceLine classname="class_exercise.EncryptionDecryptionAES" sourcefile="Util.java" sourcepath="class_exercise/Util.java"/>
+    </Class>
+    <Method classname="class_exercise.EncryptionDecryptionAES" name="decrypt" signature="(Ljava/lang/String;Ljavax/crypto/SecretKey;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="class_exercise.EncryptionDecryptionAES" start="51" end="60" startBytecode="0" endBytecode="231" sourcefile="Util.java" sourcepath="class_exercise/Util.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="class_exercise.EncryptionDecryptionAES" start="55" end="55" startBytecode="37" endBytecode="37" sourcefile="Util.java" sourcepath="class_exercise/Util.java"/>
+    <SourceLine classname="class_exercise.EncryptionDecryptionAES" start="55" end="55" startBytecode="37" endBytecode="37" sourcefile="Util.java" sourcepath="class_exercise/Util.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1" last="2" removedByChange="true">
+    <Class classname="class_exercise.QuestionSecurityBug">
+      <SourceLine classname="class_exercise.QuestionSecurityBug" sourcefile="QuestionSecurityBug.java" sourcepath="class_exercise/QuestionSecurityBug.java"/>
+    </Class>
+    <Method classname="class_exercise.QuestionSecurityBug" name="question1" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="class_exercise.QuestionSecurityBug" start="23" end="49" startBytecode="0" endBytecode="80" sourcefile="QuestionSecurityBug.java" sourcepath="class_exercise/QuestionSecurityBug.java"/>
+    </Method>
+    <SourceLine classname="class_exercise.QuestionSecurityBug" start="28" end="28" startBytecode="40" endBytecode="40" sourcefile="QuestionSecurityBug.java" sourcepath="class_exercise/QuestionSecurityBug.java"/>
+    <SourceLine classname="class_exercise.QuestionSecurityBug" start="28" end="28" startBytecode="40" endBytecode="40" sourcefile="QuestionSecurityBug.java" sourcepath="class_exercise/QuestionSecurityBug.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 5 Mar 2019 17:46:26 -0600" total_classes="3" referenced_classes="31" total_bugs="1" total_size="67" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="4.52" clock_seconds="1.53" peak_mbytes="636.87" alloc_mbytes="512.00" gc_seconds="0.11" priority_1="1">
+    <PackageStats package="class_exercise" total_bugs="1" total_types="3" total_size="67" priority_1="1">
+      <ClassStats class="class_exercise.EncryptionDecryptionAES" sourceFile="Util.java" interface="false" size="22" bugs="1" priority_1="1"/>
+      <ClassStats class="class_exercise.QuestionSecurityBug" sourceFile="QuestionSecurityBug.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="class_exercise.Util" sourceFile="Util.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="319" invocations="2" avgMicrosecondsPerInvocation="159726" maxMicrosecondsPerInvocation="291630" standardDeviationMicrosecondsPerInvocation="131904"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="287" invocations="421" avgMicrosecondsPerInvocation="682" maxMicrosecondsPerInvocation="4339" standardDeviationMicrosecondsPerInvocation="264"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="218" invocations="421" avgMicrosecondsPerInvocation="520" maxMicrosecondsPerInvocation="9175" standardDeviationMicrosecondsPerInvocation="891"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="80" invocations="31" avgMicrosecondsPerInvocation="2583" maxMicrosecondsPerInvocation="18721" standardDeviationMicrosecondsPerInvocation="4244"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="75" invocations="31" avgMicrosecondsPerInvocation="2438" maxMicrosecondsPerInvocation="17200" standardDeviationMicrosecondsPerInvocation="3813"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="57" invocations="89" avgMicrosecondsPerInvocation="650" maxMicrosecondsPerInvocation="2050" standardDeviationMicrosecondsPerInvocation="522"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="40" invocations="31" avgMicrosecondsPerInvocation="1308" maxMicrosecondsPerInvocation="19919" standardDeviationMicrosecondsPerInvocation="3528"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="40" invocations="388" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="1253" standardDeviationMicrosecondsPerInvocation="120"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1551823228235" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1551823228235" release="" codeSize="64" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1551824520369" release="" codeSize="64" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1551829478631" release="" codeSize="67" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1551829592895" release="" codeSize="67" numClasses="3"/>
+  </History>
+</BugCollection>

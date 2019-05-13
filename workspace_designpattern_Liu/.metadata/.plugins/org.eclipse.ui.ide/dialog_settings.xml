@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-proxypattern"/>
+		<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-bridgepattern"/>
+		<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-adapterpattern"/>
+		<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-compositepattern"/>
+		<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-observerpattern2"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-abstractfactorypattern"/>
+			<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-builderpattern"/>
+			<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-strategypattern"/>
+			<item value="C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\designpattern-commandpattern"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

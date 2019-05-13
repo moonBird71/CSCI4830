@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;project-bugfinder-Liu&apos;&#x0D;&#x0A;- Original project: &apos;project-bugfinder-Liu&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ScaryRankBugs.java&#x0D;&#x0A;     SecurityBug.java&#x0D;&#x0A;     TroublingRankBugs.java&#x0D;&#x0A;     Util.java" description="Delete elements" element1="/src&lt;{ScaryRankBugs.java" element2="/src&lt;{TroublingRankBugs.java" element3="/src&lt;{Util.java" element4="/src&lt;{SecurityBug.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1551211943520" subPackages="false" version="1.0"/>
+</session>

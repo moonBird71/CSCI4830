@@ -1,0 +1,24 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBConnection {
+   static Connection connection = null;
+
+   static void getDBConnection() {
+      UtilProp.loadProperty();
+      Class.forName("com.mysql.jdbc.Driver");
+      connection = DriverManager.getConnection(getURL(), getUserName(), getPassword());
+   }
+
+   static String getURL() {
+      return UtilProp.getProp("url");
+   }
+
+   static String getUserName() {
+      return UtilProp.getProp("user");
+   }
+
+   static String getPassword() {
+      return UtilProp.getProp(password");
+   }
+}

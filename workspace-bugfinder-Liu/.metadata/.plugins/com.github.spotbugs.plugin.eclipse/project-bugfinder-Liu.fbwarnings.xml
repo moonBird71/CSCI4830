@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.11" sequence="1" timestamp="1551212415404" analysisTimestamp="1551212391127" release="">
+  <Project projectName="project-bugfinder-Liu">
+    <Jar>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace-bugfinder-Liu\project-bugfinder-Liu\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace-bugfinder-Liu\project-bugfinder-Liu\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.jupiter.api_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.jupiter.engine_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.platform.commons_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.platform.engine_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.platform.launcher_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.platform.runner_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.platform.suite.api_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit.vintage.engine_4.12.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.opentest4j_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.apiguardian_1.0.0.v20170910-2246.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_201\lib\jce.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace-bugfinder-Liu\project-bugfinder-Liu\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="simpleFindBugs.EncryptionDecryptionAES">
+      <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.EncryptionDecryptionAES" name="decrypt" signature="(Ljava/lang/String;Ljavax/crypto/SecretKey;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="80" end="89" startBytecode="0" endBytecode="231" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="84" end="84" startBytecode="37" endBytecode="37" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="84" end="84" startBytecode="37" endBytecode="37" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="simpleFindBugs.EncryptionDecryptionAES">
+      <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.EncryptionDecryptionAES" name="encrypt" signature="(Ljava/lang/String;Ljavax/crypto/SecretKey;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="66" end="75" startBytecode="0" endBytecode="227" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="66" end="66" startBytecode="1" endBytecode="1" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+    <SourceLine classname="simpleFindBugs.EncryptionDecryptionAES" start="66" end="66" startBytecode="1" endBytecode="1" sourcefile="Util.java" sourcepath="simpleFindBugs/Util.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.ScaryRankBugs">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.ScaryRankBugs" name="exampleNullPointer" signature="()V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="48" end="58" startBytecode="0" endBytecode="208" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Method>
+    <LocalVariable name="keyStr" register="2" pc="47" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="56" end="56" startBytecode="48" endBytecode="48" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="51" end="51" startBytecode="32" endBytecode="32" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.ScaryRankBugs">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.ScaryRankBugs" name="exampleFieldReadBeforeInitialized" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="66" end="70" startBytecode="0" endBytecode="126" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Method>
+    <Field classname="simpleFindBugs.ScaryRankBugs" name="actions" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Field>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="68" end="68" startBytecode="20" endBytecode="20" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="68" end="68" startBytecode="20" endBytecode="20" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.ScaryRankBugs">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.ScaryRankBugs" name="exampleIgnoreReturnValue" signature="()V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="26" end="42" startBytecode="0" endBytecode="124" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="replace" signature="(CC)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="36" end="36" startBytecode="27" endBytecode="27" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="36" end="36" startBytecode="27" endBytecode="27" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.ScaryRankBugs">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.ScaryRankBugs" name="exampleIgnoreReturnValue" signature="()V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="26" end="42" startBytecode="0" endBytecode="124" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="trim" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="27" end="27" startBytecode="6" endBytecode="6" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="27" end="27" startBytecode="6" endBytecode="6" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.ScaryRankBugs">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Class>
+    <Field classname="simpleFindBugs.ScaryRankBugs" name="actions" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="simpleFindBugs.ScaryRankBugs" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+    </Field>
+    <SourceLine classname="simpleFindBugs.ScaryRankBugs" start="68" end="68" startBytecode="13" endBytecode="13" sourcefile="ScaryRankBugs.java" sourcepath="simpleFindBugs/ScaryRankBugs.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="simpleFindBugs.SecurityBug">
+      <SourceLine classname="simpleFindBugs.SecurityBug" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.SecurityBug" name="getConnectionConstantDbPasswordWRONG" signature="()Ljava/sql/Connection;" isStatic="false">
+      <SourceLine classname="simpleFindBugs.SecurityBug" start="15" end="23" startBytecode="0" endBytecode="15" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="21" end="21" startBytecode="22" endBytecode="22" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="21" end="21" startBytecode="22" endBytecode="22" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="simpleFindBugs.SecurityBug">
+      <SourceLine classname="simpleFindBugs.SecurityBug" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.SecurityBug" name="oblUnsatisfiedObligationWRONG" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.SecurityBug" start="126" end="147" startBytecode="0" endBytecode="446" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="132" end="132" startBytecode="29" endBytecode="29" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="133" end="133" startBytecode="35" endBytecode="35" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="137" end="137" startBytecode="61" endBytecode="61" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="140" end="140" startBytecode="109" endBytecode="109" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="147" end="147" startBytecode="124" endBytecode="124" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="simpleFindBugs.SecurityBug">
+      <SourceLine classname="simpleFindBugs.SecurityBug" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.SecurityBug" name="sqlNonconstantStringPassedToExecuteWRONG" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.SecurityBug" start="55" end="84" startBytecode="0" endBytecode="75" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="63" end="63" startBytecode="40" endBytecode="40" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+    <SourceLine classname="simpleFindBugs.SecurityBug" start="63" end="63" startBytecode="40" endBytecode="40" sourcefile="SecurityBug.java" sourcepath="simpleFindBugs/SecurityBug.java"/>
+  </BugInstance>
+  <BugInstance type="ESync_EMPTY_SYNC" priority="2" rank="14" abbrev="ESync" category="MT_CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.TroublingRankBugs">
+      <SourceLine classname="simpleFindBugs.TroublingRankBugs" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.TroublingRankBugs" name="emptySynchronized" signature="()V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.TroublingRankBugs" start="17" end="20" startBytecode="0" endBytecode="50" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.TroublingRankBugs" start="17" end="17" startBytecode="3" endBytecode="3" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+  </BugInstance>
+  <BugInstance type="SWL_SLEEP_WITH_LOCK_HELD" priority="2" rank="14" abbrev="SWL" category="MT_CORRECTNESS" first="1">
+    <Class classname="simpleFindBugs.TroublingRankBugs">
+      <SourceLine classname="simpleFindBugs.TroublingRankBugs" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+    </Class>
+    <Method classname="simpleFindBugs.TroublingRankBugs" name="sleepInSynchronized" signature="()V" isStatic="false">
+      <SourceLine classname="simpleFindBugs.TroublingRankBugs" start="29" end="32" startBytecode="0" endBytecode="115" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+    </Method>
+    <SourceLine classname="simpleFindBugs.TroublingRankBugs" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+    <SourceLine classname="simpleFindBugs.TroublingRankBugs" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="TroublingRankBugs.java" sourcepath="simpleFindBugs/TroublingRankBugs.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 26 Feb 2019 14:13:28 -0600" total_classes="5" referenced_classes="42" total_bugs="12" total_size="197" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="57.38" clock_seconds="24.31" peak_mbytes="478.86" alloc_mbytes="512.00" gc_seconds="0.62" priority_2="7" priority_1="5">
+    <PackageStats package="simpleFindBugs" total_bugs="12" total_types="5" total_size="197" priority_2="7" priority_1="5">
+      <ClassStats class="simpleFindBugs.EncryptionDecryptionAES" sourceFile="Util.java" interface="false" size="32" bugs="2" priority_1="2"/>
+      <ClassStats class="simpleFindBugs.ScaryRankBugs" sourceFile="ScaryRankBugs.java" interface="false" size="33" bugs="5" priority_2="3" priority_1="2"/>
+      <ClassStats class="simpleFindBugs.SecurityBug" sourceFile="SecurityBug.java" interface="false" size="98" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="simpleFindBugs.TroublingRankBugs" sourceFile="TroublingRankBugs.java" interface="false" size="10" bugs="2" priority_2="2"/>
+      <ClassStats class="simpleFindBugs.Util" sourceFile="Util.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1519" invocations="2" avgMicrosecondsPerInvocation="759992" maxMicrosecondsPerInvocation="1014092" standardDeviationMicrosecondsPerInvocation="254100"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="951" invocations="468" avgMicrosecondsPerInvocation="2032" maxMicrosecondsPerInvocation="333086" standardDeviationMicrosecondsPerInvocation="16608"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="758" invocations="468" avgMicrosecondsPerInvocation="1621" maxMicrosecondsPerInvocation="77503" standardDeviationMicrosecondsPerInvocation="4648"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="303" invocations="42" avgMicrosecondsPerInvocation="7218" maxMicrosecondsPerInvocation="36360" standardDeviationMicrosecondsPerInvocation="10519"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="257" invocations="136" avgMicrosecondsPerInvocation="1892" maxMicrosecondsPerInvocation="16416" standardDeviationMicrosecondsPerInvocation="2177"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="244" invocations="42" avgMicrosecondsPerInvocation="5819" maxMicrosecondsPerInvocation="43587" standardDeviationMicrosecondsPerInvocation="8631"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="195" invocations="435" avgMicrosecondsPerInvocation="448" maxMicrosecondsPerInvocation="84460" standardDeviationMicrosecondsPerInvocation="4211"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="174" invocations="30" avgMicrosecondsPerInvocation="5801" maxMicrosecondsPerInvocation="27450" standardDeviationMicrosecondsPerInvocation="5825"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="151" invocations="31" avgMicrosecondsPerInvocation="4885" maxMicrosecondsPerInvocation="36842" standardDeviationMicrosecondsPerInvocation="7307"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="146" invocations="24" avgMicrosecondsPerInvocation="6083" maxMicrosecondsPerInvocation="127425" standardDeviationMicrosecondsPerInvocation="25310"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="137" invocations="24" avgMicrosecondsPerInvocation="5723" maxMicrosecondsPerInvocation="22757" standardDeviationMicrosecondsPerInvocation="5876"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="127" invocations="42" avgMicrosecondsPerInvocation="3038" maxMicrosecondsPerInvocation="37353" standardDeviationMicrosecondsPerInvocation="6341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="106" invocations="22" avgMicrosecondsPerInvocation="4842" maxMicrosecondsPerInvocation="57534" standardDeviationMicrosecondsPerInvocation="11677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="98" invocations="42" avgMicrosecondsPerInvocation="2354" maxMicrosecondsPerInvocation="15979" standardDeviationMicrosecondsPerInvocation="3699"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="96" invocations="24" avgMicrosecondsPerInvocation="4013" maxMicrosecondsPerInvocation="36732" standardDeviationMicrosecondsPerInvocation="7213"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1551212415358" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

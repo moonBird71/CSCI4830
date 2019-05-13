@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Sonia.DESKTOP-K1PI5AR\Documents\UNO\Software\eclipse\workspace_CSCI4830_0219\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3468579156.index
+1685528408.index
+4054367246.index
+2961184051.index
+1251670809.index
+3918632794.index
+1031010354.index
